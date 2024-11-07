@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency</title>
+</head>
+<body>
+    <center>
+    <form name="currency" method="post" action="/currency">
+    <table>
+        <caption>
+            <h1>Currency Converter</h1>
+        </caption>
+        <tr>
+            <th>Amount</th>
+            <td ><input type="text" name="amout"></td>
+            <td><select name="amount" id="amount">
+                <option value="USD">USD-American Dollar</option>
+                <option value="India">Indian Rupee</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th>Convert</th>
+            <td ><input type="text" name="content"></td>
+            <td><select name="convert" id="conevrt">
+                <option value="TSD">TRY-Turkish Lura</option>
+                <option value="turky">TRY-Turkish Luna</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><input type="submit"  value ="Convert" id="loginsubmit"></td>
+        </tr>
+    </table>
+</form>
+</center>
+</body>
+</html>
